@@ -657,11 +657,16 @@ input[type=checkbox]:checked ~ label > img{
     height: 100%;
 }
 
-.container2 .row100 .col .inputBox .textarea{
+.container2 .row100 .col .inputBox.textarea{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100px;
     padding: 10px 0;
+    resize: none;
+}
+
+.container2 .row100 .col .inputBox.textarea textarea{
+    resize: none;
 }
 
 .container2 .row100 .col .inputBox textarea:focus ~ .line,
