@@ -218,7 +218,7 @@ section .header{
 footer{
     position: relative;
     display: grid;
-    grid-template-columns: 200px repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -250,21 +250,25 @@ footer .column .socials a:hover{
 }
 
 footer .column h4{
+    display: flex;
     color: #fff;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
     position: relative;
     top: 20px;
+    justify-content: flex-end;
 }
 
 footer .column > a{
-    display: block;
+    display: flex;
     color: #ccc;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
     position: relative;
     top: 20px;
+    justify-content: flex-end;
+    
 }
 
 footer .column > a:hover{
