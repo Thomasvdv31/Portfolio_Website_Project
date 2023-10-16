@@ -558,7 +558,7 @@ input[type=checkbox]:checked ~ label > img{
     color: #ccc;
 }
 
-#contact{
+#contact form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -735,7 +735,7 @@ input[type=checkbox]:checked ~ label > img{
 
 .name{
     padding-left: 30px;
-    border-left: 1px solid #000;
+    border-left: 1px solid #1d4ed8;
 }
 
 .name h1{
@@ -758,7 +758,7 @@ input[type=checkbox]:checked ~ label > img{
 
 .name .contact span{
     display: inline-block;
-    background-color: #000;
+    background-color: #1d4ed8;
     color: #ccc;
     width: 20px;
     height: 20px;
@@ -783,7 +783,7 @@ input[type=checkbox]:checked ~ label > img{
 
 .intro{
     padding-left: 30px;
-    border-left: 1px solid #000;
+    border-left: 1px solid #1d4ed8;
     text-align: justify;
 }
 
@@ -816,7 +816,7 @@ input[type=checkbox]:checked ~ label > img{
 .education{
     padding-left: 30px;
     text-align: justify;
-    border-left: 1px solid #000;
+    border-left: 1px solid #1d4ed8;
 }
 
 .education .location{
@@ -832,7 +832,7 @@ input[type=checkbox]:checked ~ label > img{
     position: absolute;
     width: 13px;
     height: 13px;
-    background-color: #000;
+    background-color: #1d4ed8;
     content: '';
     border-radius: 50%;
     left: -37px;

@@ -30,58 +30,63 @@
             <span class="blur"></span>
             <a class="arrow" href=""><i class="fa-solid fa-arrow-up"></i></a>
             <h1>Contact<span> Me</span></h1>
+            <p>Feel free to reach out if you have any questions, inquiries, or just want to say hello. 
+               I'm here to help and provide information on any aspect of my work. I look forward to hearing from you.</p>
         </div>
     </header>
     <section id="contact">
-        <div class="container2">
+        <form method="POST" action="#">
+            <div class="container2">
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="firstname" id="firstname" required>
+                            <label class="text" for="firstname">First name</label>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="lastname" id="lastname" required>
+                            <label class="text" for="lastname">Last name</label>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <!--This needs to be type email. But to let the css style work i need to use javascript (future update)-->
+                            <input type="text" name="email" id="email" required>
+                            <label class="text" for="email">Email</label>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="subject" id="subject" required>
+                            <label class="text" for="subject">Subject</label>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+            </div>
+    
             <div class="row100">
                 <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required>
-                        <span class="text">First name</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required>
-                        <span class="text">Last name</span>
+                    <div class="inputBox textarea">
+                        <textarea type="textarea" name="message" id="message" required></textarea>
+                        <label class="text" for="message">Type your message here...</label>
                         <span class="line"></span>
                     </div>
                 </div>
             </div>
+    
             <div class="row100">
                 <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required>
-                        <span class="text">Email</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required>
-                        <span class="text">Mobile</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-        </div>
-
-        <div class="row100">
-            <div class="col">
-                <div class="inputBox textarea">
-                    <textarea required></textarea>
-                    <span class="text">Type your message here...</span>
-                    <span class="line"></span>
+                    <input type="submit" value="send">
                 </div>
             </div>
-        </div>
-
-        <div class="row100">
-            <div class="col">
-                <input type="submit" value="send">
-            </div>
-        </div>
+        </form>
     </div>
 </div>
     </section>
@@ -102,7 +107,7 @@
         </div>
         <div class="column">
             <h4>Contact</h4>
-            <a href="#">Contact Me</a>
+            <a href="contact.html">Contact Me</a>
             <a href="#">Privicy Policy</a>
             <a href="#">Terms & Conditions</a>
         </div>
