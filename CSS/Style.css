@@ -859,6 +859,7 @@ th{
 
 td{
     border: 2px solid #ccc;
+    padding: 5px;
 }
 
 #tabledate{
@@ -871,5 +872,6 @@ td{
 
 caption{
     caption-side: bottom;
+    padding: 20px;
 }
 
