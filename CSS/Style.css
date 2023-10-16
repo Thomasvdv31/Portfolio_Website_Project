@@ -545,6 +545,7 @@ input[type=checkbox]:checked ~ label > img{
     min-height: 100vh;
     padding: 20px;
     width: 100%;
+    margin-top: -150px;
 
     
 }
@@ -698,6 +699,7 @@ input[type=checkbox]:checked ~ label > img{
     column-gap: 5%;
     row-gap: 30px;
     color: #fff;
+   
 }
 
 .avatar img{
