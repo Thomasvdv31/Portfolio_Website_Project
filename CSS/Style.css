@@ -838,3 +838,38 @@ input[type=checkbox]:checked ~ label > img{
     left: -37px;
     top: 5px;
 }
+
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th{
+    text-align: left;
+    
+}
+
+td{
+    border: 2px solid #ccc;
+}
+
+#tabledate{
+    width: 100px;
+}
+
+#tableprogress{
+    width: 100px;
+}
+
+caption{
+    caption-side: bottom;
+}
+
