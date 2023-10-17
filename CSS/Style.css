@@ -875,3 +875,59 @@ caption{
     padding: 20px;
 }
 
+.imagehobby {
+    width: 400px; 
+    height: 400px; 
+}
+
+.imagehobby img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+header #hobbycontainer {
+    margin-top: -20px; 
+    
+ 
+  }
+
+#hobbycontainer p {
+    margin-bottom: 250px; 
+}
+
+
+.photogallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+
+.column.wide {
+    grid-column: span 2;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 3px rgba(0, 0, 0, 0.3);
+    
+}
+
+
