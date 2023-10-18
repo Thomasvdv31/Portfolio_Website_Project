@@ -179,6 +179,23 @@ section .header{
     text-align: center;
     color: #ccc;
 }
+
+
+.imgsection {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+
+.imgsection img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
 /*-----------------------------------------overview-------------------------------------*/
 .overview{
     margin-top: 4rem;
