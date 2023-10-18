@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
+/*------------------------------------------------------- STANDARD STYLE ----------------------------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -22,7 +22,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #18181B;
 }
-
+/*----------------------------------------------------------------- NAVIGATION -----------------------------------------------------*/
 nav{
     max-width: 900px;
     margin: auto;
@@ -69,20 +69,21 @@ img{
 .nav-logo{
     max-width: 100px;
 }
-
+/* -------------------------------------------------- CONTAINER SIZE --------------------------------------------------*/
 .container{
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
 
+/*-------------------------------------------------- BACKGROUND EFFECT ------------------------------------------------*/
 .blur{
     position: absolute;
     box-shadow: 0px 0px 1000px 50px #1d4ed8;
     z-index: -100;
 }
 
-/*-----------------------------------------HEADER------------------------------------------*/
+/*---------------------------------------------------HEADER-------------------------------------------------------------*/
 header{
     position: relative;
     padding-top: 2rem;
@@ -196,7 +197,7 @@ section .header{
 }
 
 
-/*-----------------------------------------overview-------------------------------------*/
+/*--------------------------------------------- OVERVIEW --------------------------------------------------------*/
 .overview{
     margin-top: 4rem;
     display: grid;
@@ -332,6 +333,7 @@ footer .column > a:hover{
 }
 
 /* -------------------------------------Skill Bar------------------------------------- */
+/* Styling for the skill container */
 .skill{
     width: 500px;
     margin: 60px auto;
@@ -340,12 +342,14 @@ footer .column > a:hover{
     
 }
 
+/* Styling for individual skill list items */
 .skill li{
     margin: 20px 0;
     padding: 10px;
     list-style: none;
 }
 
+/* Styling for the progress bar container */
 .bar{
     background-color: #353b48;
     display: block;
@@ -357,16 +361,19 @@ footer .column > a:hover{
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
+/* Apply a shadow effect on hover */
 .bar:hover{
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+/* Styling for the progress bar itself */
 .bar span{
     height: 20px;
     float: left;
     background: linear-gradient(125deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
 }
 
+/* Define styles and animations for individual skills */
 .htmlcss{
     width: 70%;
     animation: htmlcss 3s;
@@ -392,6 +399,7 @@ footer .column > a:hover{
     animation: sql 3s;
 }
 
+/* Keyframe animations for skill bars */
 @keyframes htmlcss{
     0%{
         width: 0%;
@@ -436,57 +444,8 @@ footer .column > a:hover{
         width: 80%;
     }
 }
+/*-------------------------------------------------------- EXPERIENCE ------------------------------------------------------- */
 
-.features{
-    margin-top: 4rem;
-   
-    gap: 2rem;
-}
-
-.features .card{
-    background-color: #27272a;
-    padding: 1rem;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-}
-
-.features .card:hover{
-    background-color: #323232;
-    border-color: #fff;
-}
-
-.features .card span{
-    display: inline-block;
-    background-color: #1e40af;
-    padding: 2px 9px;
-    margin-bottom: 1rem;
-    font-size: 1.75rem;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.features .card h4{
-    margin-bottom: 0.5rem;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.features .card p{
-    color: #ccc;
-    margin-bottom: 2rem;
-    
-}
-
-.features .card a{
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
-.features .card a:hover{
-    color: #1e40af;
-}
 
 .project img{
     cursor: zoom-in;
@@ -575,6 +534,7 @@ input[type=checkbox]:checked ~ label > img{
     color: #ccc;
 }
 
+/*--------------------------------------------------- CONTACT FORM ---------------------------------------------------------------*/
 #contact form{
     display: flex;
     justify-content: center;
@@ -669,6 +629,7 @@ input[type=checkbox]:checked ~ label > img{
     pointer-events: none;
 }
 
+/* When input or textarea is focused or has a value, move the text above the input */
 .container2 .row100 .col .inputBox input:focus + .text,
 .container2 .row100 .col .inputBox input:valid + .text,
 .container2 .row100 .col .inputBox textarea:focus + .text,
@@ -678,6 +639,7 @@ input[type=checkbox]:checked ~ label > img{
 
 }
 
+/* Styling for the line below the input */
 .container2 .row100 .col .inputBox .line{
     position: absolute;
     bottom: 0;
@@ -690,11 +652,13 @@ input[type=checkbox]:checked ~ label > img{
     pointer-events: none;
 }
 
+/* When input is focused or has a value, expand the line below the input */
 .container2 .row100 .col .inputBox input:focus ~ .line,
 .container2 .row100 .col .inputBox input:valid ~ .line{
     height: 100%;
 }
 
+/* Styling for the textarea input */
 .container2 .row100 .col .inputBox.textarea{
     position: relative;
     width: 100%;
@@ -703,10 +667,12 @@ input[type=checkbox]:checked ~ label > img{
     resize: none;
 }
 
+ /* Remove textarea resize handle */
 .container2 .row100 .col .inputBox.textarea textarea{
     resize: none;
 }
 
+/* When textarea is focused or has a value, expand the line below the input */
 .container2 .row100 .col .inputBox textarea:focus ~ .line,
 .container2 .row100 .col .inputBox textarea:valid ~ .line{
     height: 100%;
@@ -724,7 +690,7 @@ input[type=checkbox]:checked ~ label > img{
     border-radius: 2px;
 }
 
-/*-----------------------------------------CV----------------------------------------------*/
+/*---------------------------------------------------------CV--------------------------------------------------------------*/
 
 .CVcontainer{
     width: 1000px;
@@ -856,6 +822,7 @@ input[type=checkbox]:checked ~ label > img{
     top: 5px;
 }
 
+/*------------------------------------------------------------ PROGRESS -------------------------------------------------------*/
 .wrapper{
     width: 700px;
     margin: 0 auto;
@@ -892,6 +859,7 @@ caption{
     padding: 20px;
 }
 
+/*---------------------------------------------------- Hobby --------------------------------------------------*/
 .imagehobby {
     width: 400px; 
     height: 400px; 
